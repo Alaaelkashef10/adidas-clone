@@ -1,0 +1,136 @@
+/* ===========================
+   GLOBAL RESET
+=========================== */
+
+
+/* ===========================
+   HERO IMAGE (592 × 762)
+=========================== */
+
+.hero-img {
+    width: 592px;
+    height: 762px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("your-image.jpg");
+}
+
+/* ===========================
+   ADIDAS HERO TEXT
+=========================== */
+
+.adidas-hero {
+    width: 231px;
+    height: 68px;
+    
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 68px;
+    color: #000;
+}
+
+/* ===========================
+   IMAGE BLOCK 1 (285 × 188)
+=========================== */
+
+.img-1 {
+    width: 1440px;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../images/Cgb4gMKRcMA.jpg");
+}
+
+/* ===========================
+   IMAGE BLOCK 2 (128 × 192)
+=========================== */
+
+.img-2 {
+    width: 128px;
+    height: 192px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../images/_vk_Hq7Sg4A.jpg");
+}
+
+/* ===========================
+   IMAGE BLOCK 3 (276 × 188)
+=========================== */
+
+.img-3 {
+    width: 276px;
+    height: 188px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../images/5RATwbCzYK4.jpg");
+}
+
+/* ===========================
+   IMAGE BLOCK 4 (150 × 191)
+=========================== */
+
+.img-4 {
+    width: 150px;
+    height: 191px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../images/uc0oMfwLmLs.jpg");
+}
+
+/* ===========================
+   IMAGE BLOCK 5 (285 × 188)
+=========================== */
+
+.img-5 {
+    width: 285px;
+    height: 188px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../images/bNSdIkCBJOs.jpg");
+}
+
+/* ===========================
+   IMAGE BLOCK 6 (127 × 191)
+=========================== */
+
+.img-6 {
+    width: 127px;
+    height: 191px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../images/2wqXZvKJkEQ.jpg");
+}
+
+/* ===========================
+   IMAGE BLOCK 7 (128 × 191)
+=========================== */
+
+.img-7 {
+    width: 128px;
+    height: 191px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../images/7irKimCkk6g.jpg");
+}
+.nav-links{
+    list-style-type : none;
+    padding: 0;
+    margin: 0;
+    
+
+}
+.nav-links li{
+    float: left; 
+       
+}
+.nav-links li a{
+    display: block;
+    text-decoration: none;
+    padding: 8px;
+    background-color: #dddddd;
+}
+
+.features ul{
+    list-style-image:url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAyMCAyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48Y2lyY2xlIGN4PSIxMCIgY3k9IjEwIiByPSI4IiBmaWxsPSIjMDAwMDAwIi8+PHBhdGggZD0iTSA2IDEwIEwgOSAxMyBMIDE0IDgiIHN0cm9rZT0iI2ZmZmZmZiIgc3Ryb2tlLXdpZHRoPSIyIiBmaWxsPSJub25lIi8+PC9zdmc+');
+}
