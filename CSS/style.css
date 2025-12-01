@@ -127,6 +127,8 @@
     list-style-image:url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAyMCAyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48Y2lyY2xlIGN4PSIxMCIgY3k9IjEwIiByPSI4IiBmaWxsPSIjMDAwMDAwIi8+PHBhdGggZD0iTSA2IDEwIEwgOSAxMyBMIDE0IDgiIHN0cm9rZT0iI2ZmZmZmZiIgc3Ryb2tlLXdpZHRoPSIyIiBmaWxsPSJub25lIi8+PC9zdmc+');
     list-style-position: outside;
     padding: 0 0 0 40px;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .features li{
