@@ -76,23 +76,22 @@ body {
     
 }
 
-/* Product Grid using Float */
+/* Product Grid  */
 .product-grid {
-    /* Edit */
-    display:flex;
+    display: flex;
     justify-content: space-between;
     gap: 20px;
     flex-wrap: nowrap;
+    width: 100%;
 }
 
 .product-card {
-    width: 28%;
+    width: 30%; /* بدل 28% عشان يدخلوا 3 في الصف */
+    margin-bottom: 30px;
     background-color: #f5f5f5;
     padding: 20px;
     text-align: center;
     border: 2px solid #e0e0e0;
-    margin: 0 0 30px 0;
-
 }
 
 .product-card:hover {
