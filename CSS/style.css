@@ -59,7 +59,7 @@ body {
 /* Container */
 .container {
     width: 90%;
-    margin: 40px auto;
+    margin: 50px auto;
 }
 
 /* Featured Section */
@@ -89,7 +89,7 @@ body {
 }
 
 .product-card:hover {
-    border-color: #000000;
+    border-color: #000000
 }
 
 .product-card img {
