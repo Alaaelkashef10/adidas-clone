@@ -1,4 +1,8 @@
 /* General Styles */
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -8,8 +12,11 @@ body {
     font-family: Arial, sans-serif;
     background-color: #ffffff;
     color: #000000;
+    padding-top: 60px;
     
 }
+
+
 
 /* Navigation Bar */
 .navbar {
@@ -29,16 +36,13 @@ body {
     padding: 14px 25px;
     font-size: 16px;
     font-weight: bold;
+    display: inline-block;
+    transition: background-color 0.2s ease, color 0.2s ease, transform 0.15s ease;
 }
 
 .navbar a:hover {
     background-color: #ffffff;
     color: #000000;
-}
-
-.navbar a {
-    display: inline-block;
-    transition: background-color 0.2s ease, color 0.2s ease, transform 0.15s ease;
 }
 
 .navbar a:visited {
@@ -98,42 +102,22 @@ body {
 .product-card {
     width: 30%;
     margin-bottom: 30px;
-}
-.product-card {
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-}
-
-.product-card:hover {
-    border-color: #e0e0e0;
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-    transform: translateY(-10px);
-}
-
-
-.product-card {
-    width: 30%;
-    margin-bottom: 30px;
-    border: 1px solid transparent;
-    border-radius: 6px;
-    padding: 8px;
-    box-sizing: border-box;
-    transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+     padding: 8px;
     border: 1px solid #eee;
-
-}
-
-
-.product-card:hover {
-    transform: translateY(-5px);  
-    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.22); 
+    border-radius: 6px;
+    box-sizing: border-box;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
 }
 
 
 .product-card:hover {
     border-color: #e0e0e0;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
-    transform: translateY(-10px);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); 
+    transform: translateY(-5px);
 }
+
+
 
 .product-card img {
     width: 100%;
@@ -305,6 +289,7 @@ legend {
     font-size: 16px;
     font-weight: bold;
     width: 100%;
+    cursor: pointer;
 }
 
 .submit-btn:hover {
