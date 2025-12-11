@@ -304,87 +304,40 @@ legend {
 }
 
 /* About Page Styles */
-.about {
+
+.about-section {
     margin: 40px 0;
     padding: 20px;
 }
 
-
-.about h2{
+.about-section h2{
    font-size: 32px;
     margin: 0 0 20px 0;
     text-align: center;
 }
-.about p{
+.about-section p{
     font-size: 16px;
     line-height: 1.8;
     margin: 0 0 15px 0;
     text-align:center;
     
 }
-.about p span{
+.about-section p span{
     font-weight: bold;
  } 
 
- /* our mission */
-.our-mission h2 {
-    font-size: 32px;
-    margin: 0 0 20px 0;
-    text-align: center;
-    
-}
-.our-mission p {
-    text-align: center;
-line-height: 2;}
-    
-.our-mission ul span{
-    font-weight: bold;
-}
-.our-mission ul{
-    margin-left: 7%;
+ .about-section h3{
+    margin: 30px 0 15px 0;
+    font-size: 24px;
+ }
+ .about-section ul {
+     line-height: 2;
+     font-size: 18px;
+ }
 
-}
-.our-mission h3{
-    
-    margin-right: 8%;
-    font-size: 23px}
-.our-mission ul {
+.about-section ul  {
+    list-style-type: disc;
+    padding-left:40px;
     line-height: 2;
-    font-size: 18px;
 }
-
-/* Innovation & Technology */
-.Innovation-technology p{
-    line-height: 2;
-    text-align: center;
-}
-/* commitment */
-.commitment h2{
-    font-size: 32px;
-    margin: 0 0 20px 0;
-    text-align: center;
-   
-}
-.commitment p{
-    line-height: 2;
-    text-align: center;
-    }
-/* what makes us diffrent */
-.what {
-    background-color: #cbcbcb;
-}
-.what h2 {
-    font-size: 32px;
-    margin: 0 0 20px 0;
-    text-align: center;
-}
-
-.what li span {
-   font-weight: bold;
-}
-.what ul{
-    line-height: 2;
-    font-size: 18px;
-}
-
 
