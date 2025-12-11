@@ -241,4 +241,28 @@ body {
 .about p span{
     font-weight: bold;
 }
+ {
+    text-align: center;
+    font-size: 30px;
+}
+.our-mission h3 {
+    font-size: 24px;
+    color: #000000;
+    text-align: center;
 
+}
+.our-mission ul{
+margin-left: 7%;
+}
+.our-mission p{
+ margin-left: 12px;
+    color: #000000;
+text-align: center;
+}
+.our-mission span{
+    font-weight: bold;
+}
+.our-mission ul span{
+    text-align: center;
+    font-size: large;
+}
