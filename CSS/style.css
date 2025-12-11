@@ -356,4 +356,35 @@ line-height: 2;}
 /* Innovation & Technology */
 .Innovation-technology p{
     line-height: 2;
+    text-align: center;
 }
+/* commitment */
+.commitment h2{
+    font-size: 32px;
+    margin: 0 0 20px 0;
+    text-align: center;
+   
+}
+.commitment p{
+    line-height: 2;
+    text-align: center;
+    }
+/* what makes us diffrent */
+.what {
+    background-color: #cbcbcb;
+}
+.what h2 {
+    font-size: 32px;
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+
+.what li span {
+   font-weight: bold;
+}
+.what ul{
+    line-height: 2;
+    font-size: 18px;
+}
+
+
