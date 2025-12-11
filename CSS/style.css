@@ -1,4 +1,8 @@
 /* General Styles */
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +12,11 @@ body {
     font-family: Arial, sans-serif;
     background-color: #ffffff;
     color: #000000;
+    padding-top: 60px;
+    
 }
+
+
 
 /* Navigation Bar */
 .navbar {
@@ -22,23 +30,19 @@ body {
 }
 
 
-
 .navbar a {
     color: #ffffff;
     text-decoration: none;
     padding: 14px 25px;
     font-size: 16px;
     font-weight: bold;
+    display: inline-block;
+    transition: background-color 0.2s ease, color 0.2s ease, transform 0.15s ease;
 }
 
 .navbar a:hover {
     background-color: #ffffff;
     color: #000000;
-}
-
-.navbar a {
-    display: inline-block;
-    transition: background-color 0.2s ease, color 0.2s ease, transform 0.15s ease;
 }
 
 .navbar a:visited {
@@ -55,6 +59,7 @@ body {
     color: #ffffff;
     text-align: center;
     padding: 80px 20px;
+    
 }
 
 .header h1 {
@@ -97,42 +102,23 @@ body {
 .product-card {
     width: 30%;
     margin-bottom: 30px;
-}
-.product-card {
-     
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-}
-.product-card:hover {
-    border-color: #e0e0e0;
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-    transform: translateY(-10px);
-}
-
-
-.product-card {
-    width: 30%;
-    margin-bottom: 30px;
-    border: 1px solid transparent;
-    border-radius: 6px;
     padding: 8px;
-    box-sizing: border-box;
-    transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
     border: 1px solid #eee;
-
-}
-
-
-.product-card:hover {
-    transform: translateY(-5px);  
-    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.22); 
+    border-radius: 6px;
+    box-sizing: border-box;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
 }
 
 
 .product-card:hover {
     border-color: #e0e0e0;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
-    transform: translateY(-10px);
+    transform: translateY(-15px); 
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3), 0 12px 20px rgba(0,0,0,0.2);
 }
+
+
 
 .product-card img {
     width: 100%;
@@ -167,10 +153,7 @@ body {
     color: #000000;
 }
 
-/* Clear Float */
-.clearfix {
-    clear: both;
-}
+
 
 /* Features Section with Icons List */
 .features {
@@ -214,55 +197,163 @@ body {
 }
 
 
-/* Product page styling */
 
-.product-section{
-   text-align: center;
-    margin: 60px 0;
+/* Contact Form Styles */
+
+.contact-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: #f5f5f5;
+    border: 2px solid #000000;
 }
 
-.product-section h2{
-    font-size: 36px;
-    margin: 0 0 40px 0;
-
-}
-
-
-/* about page style */
-.about h2{
+.contact-container h2 {
+    font-size: 32px;
+    margin: 0 0 30px 0;
     text-align: center;
-    font-size: 40px;
+}
+
+fieldset {
+    border: 2px solid #000000;
+    padding: 20px;
+    margin: 0 0 20px 0;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0 10px;
+}
+
+.form-group {
+    margin: 0 0 20px 0;
+}
+
+.form-group label {
+    display: block;
+    margin: 0 0 5px 0;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"] {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #000000;
+    font-size: 14px;
+}
+
+.form-group textarea {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #000000;
+    font-size: 14px;
+    height: 100px;
+}
+
+.radio-group {
+    margin: 10px 0;
+}
+
+.radio-group input {
+    margin: 0 5px 0 0;
+}
+
+
+.submit-btn {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 15px 40px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #333333;
+}
+
+.contact-method {
+  width: 95%; 
+  padding: 10px; 
+  border: 1px solid #000000; 
+  font-size: 14px;
+}
+
+
+/* contact-info styles */
+.contact-info {
+    margin: 40px 0;
+    padding: 20px;
+}
+
+.contact-info h2 {
+    font-size: 32px;
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+
+.contact-info p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin: 0 0 15px 0;
+    text-align:center;
+}
+
+/* About Page Styles */
+.about {
+    margin: 40px 0;
+    padding: 20px;
+}
+
+
+.about h2{
+   font-size: 32px;
+    margin: 0 0 20px 0;
+    text-align: center;
 }
 .about p{
-    text-align: center;
-    font-size: 15px;
+    font-size: 16px;
+    line-height: 1.8;
+    margin: 0 0 15px 0;
+    text-align:center;
     
 }
 .about p span{
     font-weight: bold;
-}
- {
-    text-align: center;
-    font-size: 30px;
-}
-.our-mission h3 {
-    font-size: 24px;
-    color: #000000;
-    text-align: center;
+ } 
 
+ /* our mission */
+.our-mission h2 {
+    font-size: 32px;
+    margin: 0 0 20px 0;
+    text-align: center;
+    
 }
-.our-mission ul{
-margin-left: 7%;
-}
-.our-mission p{
- margin-left: 12px;
-    color: #000000;
-text-align: center;
-}
-.our-mission span{
+.our-mission p {
+    text-align: center;
+line-height: 2;}
+    
+.our-mission ul span{
     font-weight: bold;
 }
-.our-mission ul span{
-    text-align: center;
-    font-size: large;
+.our-mission ul{
+    margin-left: 7%;
+
+}
+.our-mission h3{
+    
+    margin-right: 8%;
+    font-size: 23px}
+.our-mission ul {
+    line-height: 2;
+    font-size: 18px;
+}
+
+/* Innovation & Technology */
+.Innovation-technology p{
+    line-height: 2;
 }
